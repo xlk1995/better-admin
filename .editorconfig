@@ -1,0 +1,10 @@
+# https://editorconfig.org
+root = true # 对所有文件生效
+[*]
+charset = utf-8
+indent_style = tab
+indent_size = 2
+end_of_line = lf # 设置不同系统的换行符 lf表示\n
+
+insert_final_newline = true
+trim_trailing_whitespace = true
