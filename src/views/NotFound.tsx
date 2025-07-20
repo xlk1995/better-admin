@@ -1,7 +1,7 @@
-import React from 'react'
 import { Result, Button } from 'antd'
 import { useNavigate } from 'react-router-dom'
-export default function NotFound() {
+
+const NotFound = () => {
   const nav = useNavigate()
 
   const handleBackHome = () => {
@@ -20,3 +20,5 @@ export default function NotFound() {
     />
   )
 }
+
+export default NotFound

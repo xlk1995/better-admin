@@ -1,9 +1,9 @@
 import type { RouteObject } from 'react-router-dom'
+import { Navigate, useRoutes } from 'react-router-dom'
 
 import Login from '@/views/Login'
 import NotFound from '@/views/NotFound'
 import Welcome from '@/views/Welcome'
-import { Navigate, useRoutes } from 'react-router-dom'
 
 const routes: RouteObject[] = [
   {

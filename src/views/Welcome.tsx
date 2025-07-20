@@ -1,5 +1,5 @@
-import React from 'react'
-
-export default function Welcome() {
+const Welcome = () => {
   return <div>Welcome</div>
 }
+
+export default Welcome
