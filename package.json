@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode stag",
+    "dev:stag": "vite --mode stag",
+    "build:stag": "tsc && vite build --mode stag",
     "build": "tsc -b && vite build",
     "lint": "eslint \"{src}/**/*.ts\" --fix",
     "preview": "vite preview"
